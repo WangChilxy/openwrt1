@@ -34,7 +34,7 @@
 	  { "tag": "🇹🇷 土耳其节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["土耳其", "TR", "Turkey"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": 300, "tolerance": 50 },
 	  { "tag": "🇺🇦 乌克兰节点", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["乌克兰", "UA", "Ukraine"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": 300, "tolerance": 50 },
 	  { "tag": "🌎 美洲负载均衡", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["美国", "加拿大", "阿根廷", "巴西"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": 300, "tolerance": 50 },
-	  { "tag": "🇪🇺 欧洲负载均衡", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["德国", "英国", "法国", "荷兰", "西班牙", "乌克兰"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": 300, "tolerance": 50 },
+	  { "tag": "🇪🇺 欧洲负载均衡", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["德国", "英国", "法国", "荷兰", "西班牙", "乌克兰"] }], "url": "http://cp.cloudflare.com/generate_204", "interval": 300, "tolerance": 50 }
 ],
   "outbound_providers": [
     {
