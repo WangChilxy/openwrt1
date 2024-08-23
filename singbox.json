@@ -1,13 +1,13 @@
 {
 "outbounds": [
 	{ "tag": "🚀 节点选择", "type": "urltest", "outbounds": ["🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🔮 负载均衡"], "url": "http://cp.cloudflare.com/generate_204", "interval": "300s", "tolerance": 50 },
-	{ "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "url": "http://cp.cloudflare.com/generate_204", "interval": "300s", "tolerance": 50 },
+	{ "tag": "♻️ 自动选择", "type": "urltest", "use_all_providers": true, "url": "http://cp.cloudflare.com/generate_204", "interval": "300s", "tolerance": 50 }
 	{ "tag": "🔮 负载均衡", "type": "urltest", "use_all_providers": true, "includes": ["(?i)港|日本|HK|Hong Kong|JP|Japan"], "url": "http://cp.cloudflare.com/generate_204", "interval": "300s", "tolerance": 50 }
 	{ "tag": "📢 谷歌", "type": "selector", "outbounds": ["🇺🇲 美国节点", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🇦🇺 澳大利亚节点", "🇩🇪 德国节点", "🇬🇧 英国节点", "🇨🇦 加拿大节点", "🇫🇷 法国节点", "🇳🇱 荷兰节点", "🇪🇸 西班牙节点", "🇮🇳 印度节点", "🇦🇪 迪拜节点"] },
 	{ "tag": "💬 OpenAi", "type": "selector", "use_all_providers": true, "includes": ["日本Z1|日本Z0|gpt|ChatGPT|GPT"] }
 	{ "tag": "Ⓜ️ 微软服务", "type": "selector", "outbounds": ["DIRECT", "🇭🇰 香港节点"] },
 	{ "tag": "📹 油管视频", "type": "selector", "outbounds": ["🇺🇲 美国节点", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡"] },
-	{ "tag": "🎵 TikTok", "type": "selector", "outbounds": ["{all}"] },
+	{ "tag": "🎵 TikTok", "type": "selector", "use_all_providers": true }
 	{ "tag": "📲 电报信息", "type": "selector", "outbounds": ["🔮 负载均衡", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🇭🇰 香港节点", "🇯🇵 日本节点"] },
 	{ "tag": "🍎 苹果服务", "type": "selector", "outbounds": ["DIRECT", "🚀 节点选择"] },
 	{ "tag": "🎯 全球直连", "type": "selector", "outbounds": ["DIRECT", "🚀 节点选择", "♻️ 自动选择"] },
