@@ -1,0 +1,236 @@
+{
+  "outbounds": [
+    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🔮 负载均衡"] },
+    { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["ALL"] },
+    { "tag": "🔮 负载均衡", "type": "urltest", "outbounds": ["港Z", "本Z"] },
+    { "tag": "📢 谷歌", "type": "selector", "outbounds": ["🇺🇲 美国节点", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🇦🇺 澳大利亚节点", "🇩🇪 德国节点", "🇬🇧 英国节点", "🇨🇦 加拿大节点", "🇫🇷 法国节点", "🇳🇱 荷兰节点", "🇪🇸 西班牙节点", "🇮🇳 印度节点", "🇦🇪 迪拜节点"] },
+    { "tag": "💬 OpenAi", "type": "selector", "outbounds": ["🇯🇵 日本Z1", "🇯🇵 日本Z0", "gpt", "ChatGPT", "GPT"] },
+    { "tag": "Ⓜ️ 微软服务", "type": "selector", "outbounds": ["DIRECT", "🇭🇰 香港节点"] },
+    { "tag": "📹 油管视频", "type": "selector", "outbounds": ["🇺🇲 美国节点", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡"] },
+    { "tag": "🌍 国外媒体", "type": "selector", "outbounds": ["🇺🇲 美国节点", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🇦🇺 澳大利亚节点", "🇩🇪 德国节点", "🇬🇧 英国节点", "🇨🇦 加拿大节点", "🇫🇷 法国节点", "🇳🇱 荷兰节点", "🇪🇸 西班牙节点", "🇮🇳 印度节点", "🇦🇪 迪拜节点"] },
+    { "tag": "🌏 国内媒体", "type": "selector", "outbounds": ["DIRECT", "🇦🇺 澳大利亚节点", "🇩🇪 德国节点", "🇬🇧 英国节点", "🇨🇦 加拿大节点", "🇫🇷 法国节点", "🇳🇱 荷兰节点", "🇪🇸 西班牙节点", "🇮🇳 印度节点", "🇦🇪 迪拜节点"] },
+    { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["ALL"] },
+    { "tag": "📲 电报信息", "type": "selector", "outbounds": ["🔮 负载均衡", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "🇭🇰 香港节点", "🇯🇵 日本节点"] },
+    { "tag": "🍎 苹果服务", "type": "selector", "outbounds": ["DIRECT", "🚀 节点选择"] },
+    { "tag": "🎯 全球直连", "type": "selector", "outbounds": ["DIRECT", "🚀 节点选择", "♻️ 自动选择"] },
+    { "tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🚀 节点选择", "🌎 美洲负载均衡", "🇪🇺 欧洲负载均衡", "♻️ 自动选择", "🔮 负载均衡", "DIRECT"] },
+    { "tag": "🇭🇰 香港节点", "type": "urltest", "outbounds": ["HK", "HongKong"], "includes": ["(?i)港|hk|hongkong|hong kong"] },
+    { "tag": "🇯🇵 日本节点", "type": "urltest", "outbounds": ["JP", "Japan"], "includes": ["(?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|jp|japan"] },
+    { "tag": "🇺🇲 美国节点", "type": "urltest", "outbounds": ["US", "UnitedStates"], "includes": ["(?i)美国|凤凰城|洛杉矶|芝加哥|us|united states"] },
+    { "tag": "🇨🇳 台湾节点", "type": "urltest", "outbounds": ["TW", "Taiwan"], "includes": ["(?i)台湾|tw|taiwan"] },
+    { "tag": "🇸🇬 狮城节点", "type": "urltest", "outbounds": ["SG", "Singapore"], "includes": ["(?i)新加坡|坡|狮城|sg|singapore"] },
+    { "tag": "🇰🇷 韩国节点", "type": "urltest", "outbounds": ["KR", "Korea"], "includes": ["(?i)韩国|kr|korea|kor|首尔|韩|韓"] },
+    { "tag": "🇦🇺 澳大利亚节点", "type": "urltest", "outbounds": ["AU", "Australia"], "includes": ["(?i)澳大利亚|悉尼|墨尔本|au|australia"] },
+    { "tag": "🇩🇪 德国节点", "type": "urltest", "outbounds": ["DE", "Germany"], "includes": ["(?i)德国|法兰克福|de|germany"] },
+    { "tag": "🇬🇧 英国节点", "type": "urltest", "outbounds": ["UK", "UnitedKingdom"], "includes": ["(?i)英国|伦敦|uk|united kingdom"] },
+    { "tag": "🇨🇦 加拿大节点", "type": "urltest", "outbounds": ["CA", "Canada"], "includes": ["(?i)加拿大|多伦多|ca|canada"] },
+    { "tag": "🇮🇳 印度节点", "type": "urltest", "outbounds": ["IN", "India"], "includes": ["(?i)印度|孟买|海得拉巴|in|india"] },
+    { "tag": "🇫🇷 法国节点", "type": "urltest", "outbounds": ["FR", "France"], "includes": ["(?i)法国|fr|france"] },
+    { "tag": "🇳🇱 荷兰节点", "type": "urltest", "outbounds": ["NL", "Netherlands"], "includes": ["(?i)荷兰|nl|netherlands"] },
+    { "tag": "🇪🇸 西班牙节点", "type": "urltest", "outbounds": ["ES", "Spain"], "includes": ["(?i)西班牙|es|spain"] },
+    { "tag": "🇦🇪 迪拜节点", "type": "urltest", "outbounds": ["AE", "Dubai"], "includes": ["(?i)迪拜|ae|dubai"] },
+    { "tag": "🇦🇷 阿根廷节点", "type": "urltest", "outbounds": ["AR", "Argentina"], "includes": ["(?i)阿根廷|ar|argentina"] },
+    { "tag": "🇧🇷 巴西节点", "type": "urltest", "outbounds": ["BR", "Brazil"], "includes": ["(?i)巴西|br|brazil"] },
+    { "tag": "🌍 非洲节点", "type": "urltest", "outbounds": ["ZA", "Africa"], "includes": ["(?i)非洲|南非|za|africa"] },
+    { "tag": "🇸🇪 瑞典节点", "type": "urltest", "outbounds": ["SE", "Sweden"], "includes": ["(?i)瑞典|se|sweden"] },
+    { "tag": "🇹🇷 土耳其节点", "type": "urltest", "outbounds": ["TR", "Turkey"], "includes": ["(?i)土耳其|tr|turkey"] },
+    { "tag": "🇺🇦 乌克兰节点", "type": "urltest", "outbounds": ["UA", "Ukraine"], "includes": ["(?i)乌克兰|ua|ukraine"] },
+    { "tag": "🌎 美洲负载均衡", "type": "urltest", "outbounds": ["US", "CA", "AR", "BR"], "includes": ["(?i)美国|加拿大|阿根廷|巴西"] },
+    { "tag": "🇪🇺 欧洲负载均衡", "type": "urltest", "outbounds": ["DE", "UK", "FR", "NL", "ES", "UA"], "includes": ["(?i)德国|英国|法国|荷兰|西班牙|乌克兰"] }
+  ]
+"outbound_providers": [
+    {
+      "tag": "🛫 机场 1",
+      "type": "remote",
+      "download_url": "https://6melgjw.chaoyue.quest:8443/api/v1/client/0766ea3e8aa40293a7d15e738099e29c?flag=clashmeta",
+      "path": "./providers/airport1.yaml",
+      "download_interval": "24h",
+      "download_ua": "clash.meta",
+      "download_detour": "PROXY",
+      "excludes": "免费|下次|期|群|流量|套餐|续|加入|tg|官网|随机|测试",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "10m"
+    },
+    {
+      "tag": "🛫 机场 2",
+      "type": "remote",
+      "download_url": "https://fem9t.no-mad-world.club/link/tzS6POqUXqdAHyvZ?clash=3&extend=1",
+      "path": "./providers/airport2.yaml",
+      "download_interval": "24h",
+      "download_ua": "clash.meta",
+      "download_detour": "PROXY",
+      "excludes": "免费|下次|期|群|流量|套餐|续|加入|tg|官网|随机|测试",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "10m"
+    },
+    {
+      "tag": "🛫 机场 3",
+      "type": "remote",
+      "download_url": "https://djjc.cfd/api/v1/client/subscribe?token=043f281933d0e0be449c597d0e443799",
+      "path": "./providers/airport3.yaml",
+      "download_interval": "24h",
+      "download_ua": "clash.meta",
+      "download_detour": "PROXY",
+      "excludes": "免费|下次|期|群|流量|套餐|续|加入|tg|官网|随机|测试",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "10m"
+    }
+  ]
+"route": {
+    "rules": [
+      { "protocol": [ "dns" ], "outbound": "dns-out" },
+      { "clash_mode": "Direct", "outbound": "DIRECT" },
+      { "clash_mode": "Global", "outbound": "GLOBAL" },
+      { "rule_set": [ "local_area_network" ], "outbound": "🎯 全球直连" },
+      { "rule_set": [ "google_cn" ], "outbound": "🎯 全球直连" },
+      { "rule_set": [ "steam_cn" ], "outbound": "🎯 全球直连" },
+      { "rule_set": [ "openai" ], "outbound": "💬 OpenAi" },
+      { "rule_set": [ "youtube" ], "outbound": "📹 油管视频" },
+      { "rule_set": [ "google" ], "outbound": "📢 谷歌" },
+      { "rule_set": [ "microsoft" ], "outbound": "Ⓜ️ 微软服务" },
+      { "rule_set": [ "apple" ], "outbound": "🍎 苹果服务" },
+      { "rule_set": [ "tiktok" ], "outbound": "🎵 TikTok" },
+      { "rule_set": [ "twitter" ], "outbound": "🌍 国外媒体" },
+      { "rule_set": [ "proxy_media" ], "outbound": "🌍 国外媒体" },
+      { "rule_set": [ "china_media" ], "outbound": "🌏 国内媒体" },
+      { "rule_set": [ "telegram" ], "outbound": "📲 电报信息" },
+      { "rule_set": [ "proxy_lite" ], "outbound": "🚀 节点选择" },
+      { "rule_set": [ "china_domain" ], "outbound": "🎯 全球直连" },
+      { "rule_set": [ "china_company_ip" ], "outbound": "🎯 全球直连" },
+      { "geoip": [ "cn" ], "outbound": "🎯 全球直连" }
+    ],
+    "rule_set": [
+      {
+        "tag": "local_area_network",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/LocalAreaNetwork.srs",
+        "url": "https://example.com/LocalAreaNetwork.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "google_cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/GoogleCN.srs",
+        "url": "https://example.com/GoogleCN.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "steam_cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/SteamCN.srs",
+        "url": "https://example.com/SteamCN.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "openai",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/AI.srs",
+        "url": "https://raw.githubusercontent.com/WangChilxy/openwrt1/main/AI.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "youtube",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/YouTube.srs",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "google",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/Google.srs",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "microsoft",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/Microsoft.srs",
+        "url": "https://example.com/Microsoft.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "apple",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/Apple.srs",
+        "url": "https://example.com/Apple.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "tiktok",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/TikTok.srs",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "twitter",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/Twitter.srs",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "proxy_media",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ProxyMedia.srs",
+        "url": "https://example.com/ProxyMedia.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "china_media",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ChinaMedia.srs",
+        "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "telegram",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/Telegram.srs",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "proxy_lite",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ProxyLite.srs",
+        "url": "https://example.com/ProxyLite.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "china_domain",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ChinaDomain.srs",
+        "url": "https://example.com/ChinaDomain.srs",
+        "download_detour": "PROXY"
+      },
+      {
+        "tag": "china_company_ip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ChinaCompanyIp.srs",
+        "url": "https://example.com/ChinaCompanyIp.srs",
+        "download_detour": "PROXY"
+      }
+    ],
+    "final": "🐟 漏网之鱼",
+    "auto_detect_interface": true,
+    "concurrent_dial": true
+  }
+}
