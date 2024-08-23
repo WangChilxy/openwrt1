@@ -181,6 +181,9 @@
         "path": "./ruleset/cnip.srs",
         "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs"
       }
-    ]
+    ],
+    "final": "🐟 漏网之鱼",
+    "auto_detect_interface": true,
+    "concurrent_dial": true
   }
 }
