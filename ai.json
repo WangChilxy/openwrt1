@@ -7,11 +7,14 @@
         "alkalimakersuite-pa.clients6.google.com",
         "api.msn.com",
         "api.statsig.com",
+        "api.grok.x.ai",
+        "api.x.ai",
         "assets.msn.com",
         "browser-intake-datadoghq.com",
         "cdn.usefathom.com",
         "chat.openai.com.cdn.cloudflare.net",
         "gemini.google.com",
+        "grok.x.ai",
         "in.appcenter.ms",
         "makersuite.google.com",
         "odc.officeapps.live.com",
@@ -25,14 +28,19 @@
         "colab",
         "developerprofiles",
         "generativelanguage",
+        "grok",
+        "grok-api",
         "openai",
-        "openaicom-api"
+        "openaicom-api",
+        "xai"
       ],
       "domain_suffix": [
         "ai.com",
         "algolia.net",
         "anthropic.com",
+        "api.grok.x.ai",
         "api.statsig.com",
+        "api.x.ai",
         "apis.google.com",
         "auth0.com",
         "bard.google.com",
@@ -47,6 +55,7 @@
         "featuregates.org",
         "gemini.google.com",
         "generativeai.google",
+        "grok.x.ai",
         "host.livekit.cloud",
         "identrust.com",
         "intercom.io",
@@ -62,7 +71,8 @@
         "segment.io",
         "sentry.io",
         "stripe.com",
-        "turn.livekit.cloud"
+        "turn.livekit.cloud",
+        "x.ai"
       ]
     }
   ]
