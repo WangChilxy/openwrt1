@@ -1,0 +1,105 @@
+# NAME: Twitter
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-09-28 02:08:26
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# IP-CIDR: 6
+# TOTAL: 33
+
+# 域名匹配
+DOMAIN,d1g1f25tn8m2e6.cloudfront.net
+DOMAIN,d1m7jfoe9zdc1j.cloudfront.net
+DOMAIN,d1mhjrowxxagfy.cloudfront.net
+DOMAIN,d1oca24q5dwo6d.cloudfront.net
+DOMAIN,d1w2poirtb3as9.cloudfront.net
+DOMAIN,d1xhnb4ptk05mw.cloudfront.net
+DOMAIN,d1ymi26ma8va5x.cloudfront.net
+DOMAIN,d2aba1wr3818hz.cloudfront.net
+DOMAIN,d2dylwb3shzel1.cloudfront.net
+DOMAIN,d2e2de1etea730.cloudfront.net
+DOMAIN,d2nvs31859zcd8.cloudfront.net
+DOMAIN,d2um2qdswy1tb0.cloudfront.net
+DOMAIN,d2vjef5jvl6bfs.cloudfront.net
+DOMAIN,d2xmjdvx03ij56.cloudfront.net
+DOMAIN,d36nr0u3xmc4mm.cloudfront.net
+DOMAIN,d3aqoihi2n8ty8.cloudfront.net
+DOMAIN,d3c27h4odz752x.cloudfront.net
+DOMAIN,d3vd9lfkzbru3h.cloudfront.net
+DOMAIN,d6d4ismr40iw.cloudfront.net
+DOMAIN,d6tizftlrpuof.cloudfront.net
+DOMAIN,ddacn6pr5v0tl.cloudfront.net
+DOMAIN,dgeft87wbj63p.cloudfront.net
+DOMAIN,dqrpb9wgowsf5.cloudfront.net
+DOMAIN,ds0h3roq6wcgc.cloudfront.net
+DOMAIN,featureassets.org
+DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN,o4508179396558848.ingest.us.sentry.io
+DOMAIN,o2129.ingest.sentry.io
+DOMAIN,prodregistryv2.org
+DOMAIN,featureassets.org
+DOMAIN,egv4py1c-ios.mobile-messenger.intercom.com
+DOMAIN,api.mixpanel.com
+DOMAIN,a1887.dscq.akamai
+DOMAIN,beyondwickedmapping.org
+DOMAIN,dykkng5hnh52u.cloudfront.net
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,twitter.map.fastly.net
+DOMAIN-SUFFIX,api.grok.x.ai
+DOMAIN-SUFFIX,api.twitter.com
+DOMAIN-SUFFIX,api.x.com
+
+# 域名关键字匹配
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,api.x
+DOMAIN-KEYWORD,x.ai
+DOMAIN-KEYWORD,grok-v
+
+# IP地址匹配
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
+IP-CIDR,209.237.192.0/19,no-resolve
+IP-CIDR,69.195.160.0/19,no-resolve
